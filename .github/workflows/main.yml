@@ -4,9 +4,9 @@ on:
      branches:
           - main
 jobs:
-   runs_on: ubuntu-latest
-   build:
-      steps:
-          run: echo"hello"
+  build:
+       runs-on: ubuntu-latest
+       steps:
+          - run: echo"hello"
 
       
