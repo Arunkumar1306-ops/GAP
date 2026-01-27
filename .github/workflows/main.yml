@@ -1,0 +1,12 @@
+name: creating workflow
+on:
+  push:
+     branches:
+          - main
+jobs:
+   runs_on: ubuntu-latest
+   build:
+      steps:
+          run: echo"hello"
+
+      
