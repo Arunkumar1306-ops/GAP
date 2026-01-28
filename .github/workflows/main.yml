@@ -1,11 +1,11 @@
 name: creating workflow
 on:
-  push:
+  # push:
   # pull_request: 
   # pull_request_review:
   #   types: [submitted]
-  #workflow_dispatch:
-      #inputs
+  workflow_dispatch:
+      
     
          
     #   branches:
